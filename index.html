@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Shop | Marko Perovic</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+  </head>
+  <style>.swiper-pagination-bullet{color:white;background: white;}</style>
+  <body>
+    <header>
+      <i class="fas fa-bars"></i>
+      <h5>Online Shop</h5>
+      <i class="fas fa-shopping-bag"></i>
+    </header>
+    <div class="sub-header">
+        <i class="fas fa-search"></i>
+      <h5>Welcome to online shop made by Marko Perović</h5>
+      <i class="fas fa-info-circle"></i>
+    </div>
+    <section>
+      <div class="swiper-container" id="container">
+        <div class="swiper-wrapper" id="wrapper"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <h1 class="headline">Products</h1>
+      <div class="wrapper" id="product-wrapper"></div>
+    </section>
+    <div class="cart">
+       <div class="introduction">
+        <i class="fas fa-times close-cart"></i>
+        <div class="headline-cart">
+            <h1>Your cart</h1>
+        </div>
+       </div>
+        <div class="cart-content">
+
+            <div class="in-cart-item">
+                <img src="./media/armchair.jpg" alt="" class="cart-image">
+                <div class="short-info">
+                    <h1>Name</h1>
+                    <h4>$ 150</h4>
+                </div>
+                <button class="remove-item">REMOVE</button>
+
+                <div class="amount">
+<i class="fas fa-chevron-up"></i>
+<p>1</p>
+<i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+            
+        </div>
+
+        
+        <button class="clear-cart">CLEAR</button>
+    </div>
+    <div class="overlay"></div>
+  </body>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="source.js"></script>
+</html>

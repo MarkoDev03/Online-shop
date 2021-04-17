@@ -1,0 +1,70 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Armchair",
+            "image": "./media/armchair.jpg",
+            "price": "250"
+        },
+        {
+            "id": 2,
+            "name": "Coocker",
+            "image": "./media/coocker.jpg",
+            "price": "500"
+        },
+        {
+            "id": 3,
+            "name": "Desk",
+            "image": "./media/desk.jpeg",
+            "price": "120"
+        },
+        {
+            "id": 4,
+            "name": "Fridge",
+            "image": "./media/fridge.jpg",
+            "price": "300"
+        },
+        {
+            "id": 5,
+            "name": "Machine",
+            "image": "./media/machine.png",
+            "price": "200"
+        },
+        {
+            "id": 6,
+            "name": "Sofa",
+            "image": "./media/sofa.jpg",
+            "price": "2000"
+        },
+        {
+            "id": 7,
+            "name": "Table",
+            "image": "./media/table.jpeg",
+            "price": "350"
+        },
+        {
+            "id": 8,
+            "name": "Woredrober",
+            "image": "./media/woredrober.jpg",
+            "price": "200"
+        }
+    ],
+    "swiper": [
+        {
+            "image": "./swiper/img1.jpg",
+            "class": "swiper-slide"
+        },
+        {
+            "image": "./swiper/img2.jpg",
+            "class": "swiper-slide"
+        },
+        {
+            "image": "./swiper/img3.jpg",
+            "class": "swiper-slide"
+        },
+        {
+            "image": "./swiper/img4.jpg",
+            "class": "swiper-slide"
+        }
+    ]
+}
