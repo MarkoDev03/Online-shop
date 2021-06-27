@@ -1,70 +1,56 @@
-{
-    "products": [
-        {
-            "id": 1,
-            "name": "Armchair",
-            "image": "./media/armchair.jpg",
-            "price": "250"
-        },
-        {
-            "id": 2,
-            "name": "Coocker",
-            "image": "./media/coocker.jpg",
-            "price": "500"
-        },
-        {
-            "id": 3,
-            "name": "Desk",
-            "image": "./media/desk.jpeg",
-            "price": "120"
-        },
-        {
-            "id": 4,
-            "name": "Fridge",
-            "image": "./media/fridge.jpg",
-            "price": "300"
-        },
-        {
-            "id": 5,
-            "name": "Machine",
-            "image": "./media/machine.png",
-            "price": "200"
-        },
-        {
-            "id": 6,
-            "name": "Sofa",
-            "image": "./media/sofa.jpg",
-            "price": "2000"
-        },
-        {
-            "id": 7,
-            "name": "Table",
-            "image": "./media/table.jpeg",
-            "price": "350"
-        },
-        {
-            "id": 8,
-            "name": "Woredrober",
-            "image": "./media/woredrober.jpg",
-            "price": "200"
-        }
-    ],
-    "swiper": [
-        {
-            "image": "./swiper/img1.jpg",
-            "class": "swiper-slide"
-        },
-        {
-            "image": "./swiper/img2.jpg",
-            "class": "swiper-slide"
-        },
-        {
-            "image": "./swiper/img3.jpg",
-            "class": "swiper-slide"
-        },
-        {
-            "image": "./swiper/img4.jpg",
-            "class": "swiper-slide"
-        }
-    ]
-}
+[
+    {
+        "id":1,
+        "title":"Double Bed",
+        "price":450,
+        "image":"https://www.121homefurniture.co.uk/image/cache/catalog/data/julian-bowen/bedroom/chloe/double-bed/chloe-double-bed-CHL006-001-1200x1200.jpg"
+    },
+    {
+        "id":2,
+        "title":"Olvia Sofa",
+        "price":1850,
+        "image":""
+    },
+    {
+        "id":3,
+        "title":"Desk",
+        "price":250,
+        "image":"https://target.scene7.com/is/image/Target/GUEST_5728d35f-3372-4999-b375-4871cad617df?wid=488&hei=488&fmt=pjpeg"
+    },
+    {
+        "id":4,
+        "title":"Armchair",
+        "price":100,
+        "image":"https://secure.img1-fg.wfcdn.com/im/08495146/compr-r85/1266/126677359/annette-43-wide-armchair.jpg"
+    },
+    {
+        "id":5,
+        "title":"Bookshelf",
+        "price":85,
+        "image":"https://image.made-in-china.com/202f0j00wVeUDnjzQNkK/Modern-Tree-Shaped-Portable-Bookshelf-Wooden-Free-Stand-Bookcase.jpg"
+    },
+    {
+        "id":6,
+        "title":"Wardrobe",
+        "price":125,
+        "image":"https://www.fishpools.co.uk/images/products/standard/15457.jpg"
+    },
+    {
+        "id":7,
+        "title":"Table",
+        "price":75,
+        "image":"https://cdn.shopify.com/s/files/1/0104/1524/3330/products/zoco-home-furnitures-furnitures-tables-round-dining-table-140cm-tab1014-11553669251138.png?v=1606681288"
+    },
+    {
+        "id":8,
+        "title":"TV Shelf",
+        "price":50,
+        "image":"https://www.format-store.com/images/1601627771.jpg"
+    },
+    {
+        "id":9,
+        "title":"Bunk Bed",
+        "price":285,
+        "image":"https://imageresizer.furnituredealer.net/img/remote/images.furnituredealer.net/img/products%2Fsignature_design_by_ashley%2Fcolor%2Flettner_b733-58p%2B58r-b1.jpg?width=878&height=600&scale=both&trim.threshold=80"
+    }
+]

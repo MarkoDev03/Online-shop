@@ -1,71 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Online Shop | Marko Perovic</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
-  </head>
-  <style>.swiper-pagination-bullet{color:white;background: white;}</style>
-  <body>
-    <header>
-      <i class="fas fa-bars"></i>
-      <h5>Online Shop</h5>
-      <i class="fas fa-shopping-bag"></i>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E Commerce</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <header class="w-100 pt-1 pb-1 pl-3 pr-3 d-flex justify-content-around align-items-center bg-warning text-muted border border-dark border-left-0 border-top-0 border-right-0" id="header">
+          <i class="fas fa-search  display-6"></i>
+          <h1 id="headline" class="text-dark"></h1>
+          <i class="fas fa-shopping-cart display-6"></i>
     </header>
-    <div class="sub-header">
-        <i class="fas fa-search"></i>
-      <h5>Welcome to online shop made by Marko Perović</h5>
-      <i class="fas fa-info-circle"></i>
-    </div>
+    <nav class="bg-dark w-100 pt-1 pb-1 d-flex justify-content-center border border-dark border-top-0 border-left-0 border-right-0" id="nav">
+        <a href="" class="nav-link text-light text-decoration-none">Shops</a>
+        <a href="" class="nav-link text-light text-decoration-none">Prodacts</a>
+        <a href="" class="nav-link text-light text-decoration-none">Contact</a>
+    </nav>
     <section>
-      <div class="swiper-container" id="container">
-        <div class="swiper-wrapper" id="wrapper"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-pagination"></div>
-      </div>
-      <h1 class="headline">Products</h1>
-      <div class="wrapper" id="product-wrapper"></div>
-    </section>
-    <div class="cart">
-       <div class="introduction">
-        <i class="fas fa-times close-cart"></i>
-        <div class="headline-cart">
-            <h1>Your cart</h1>
-        </div>
-       </div>
-        <div class="cart-content">
-
-            <div class="in-cart-item">
-                <img src="./media/armchair.jpg" alt="" class="cart-image">
-                <div class="short-info">
-                    <h1>Name</h1>
-                    <h4>$ 150</h4>
-                </div>
-                <button class="remove-item">REMOVE</button>
-
-                <div class="amount">
-<i class="fas fa-chevron-up"></i>
-<p>1</p>
-<i class="fas fa-chevron-down"></i>
-                </div>
+       <div  class="swiper-container w-100" id="container">
+           <div class="swiper-wrapper  w-100" id="wrapper">
             </div>
-            
-        </div>
+         <div class="swiper-pagination"></div>
+         <div class="swiper-button-prev"></div>
+         <div class="swiper-button-next"></div>
+      </div>
+      <div>
 
-        
-        <button class="clear-cart">CLEAR</button>
-    </div>
-    <div class="overlay"></div>
-  </body>
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-  <script src="source.js"></script>
+      </div>
+    </section>
+
+</body>
+<script src="scripts.js"></script>
 </html>
