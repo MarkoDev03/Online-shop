@@ -12,5 +12,19 @@
         {
             "image":"https://images.homify.com/images/a_0,c_fill,f_auto,h_900,q_auto,w_1920/v1494497485/p/photo/image/2001432/Bartley_Residence.001/minimalist-living-room-photos-by-posh-home-interior-design-i-homify.jpg"
         }
+    ],
+    "links":[
+        {
+            "text":"Shops",
+            "href":""
+        },
+        {
+            "text":"Products",
+            "href":""
+        },
+        {
+            "text":"Contact",
+            "href":""
+        }
     ]
 }

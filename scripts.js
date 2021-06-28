@@ -57,6 +57,29 @@ $(document).ready(function() {
     xml.open("GET", "Headline.txt", true);
     xml.send();
 
+    $.get({
+        url:"data.json",
+        dataType:'json',
+        contentType:'application/json',
+        async:true,
+        isModified:false,
+        timeout:5000,
+        username:'marko.perovic',
+        password:'*******',
+        type:'GET'
+    })
+    .done(function(response) {
+        $.each(response.links, function(key, link) {
+            $('#nav').append(`<a href="${link.href}" class="nav-link text-light text-decoration-none">${link.text}</a>`);
+        })
+    })
+    .fail(function(exception) {
+        console.warn(exception);
+    })
+    .always(function() {
+        console.log();
+    })
+
     
 
 })
