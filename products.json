@@ -9,13 +9,13 @@
         "id":2,
         "title":"Olvia Sofa",
         "price":1850,
-        "image":""
+        "image":"https://target.scene7.com/is/image/Target/GUEST_5728d35f-3372-4999-b375-4871cad617df?wid=488&hei=488&fmt=pjpeg"
     },
     {
         "id":3,
         "title":"Desk",
         "price":250,
-        "image":"https://target.scene7.com/is/image/Target/GUEST_5728d35f-3372-4999-b375-4871cad617df?wid=488&hei=488&fmt=pjpeg"
+        "image":"https://images-na.ssl-images-amazon.com/images/I/61CssR4l0fL._AC_SL1152_.jpg"
     },
     {
         "id":4,
@@ -52,5 +52,11 @@
         "title":"Bunk Bed",
         "price":285,
         "image":"https://imageresizer.furnituredealer.net/img/remote/images.furnituredealer.net/img/products%2Fsignature_design_by_ashley%2Fcolor%2Flettner_b733-58p%2B58r-b1.jpg?width=878&height=600&scale=both&trim.threshold=80"
+    },
+    {
+        "id":10,
+        "title":"Lazy Bag",
+        "price":100,
+        "image":"https://www.mojnamestaj.rs/var/uploads/special/1110/p1110_912e1_thumb.jpg"
     }
 ]

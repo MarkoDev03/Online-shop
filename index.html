@@ -12,28 +12,55 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="w-100 pt-1 pb-1 pl-3 pr-3 d-flex justify-content-around align-items-center bg-warning text-muted border border-dark border-left-0 border-top-0 border-right-0" id="header">
           <i class="fas fa-search  display-6"></i>
           <h1 id="headline" class="text-dark"></h1>
-          <i class="fas fa-shopping-cart display-6"></i>
+          <i class="fas fa-shopping-cart display-6" id="show-cart"></i>
     </header>
     <nav class="bg-dark w-100 pt-1 pb-1 d-flex justify-content-center border border-dark border-top-0 border-left-0 border-right-0" id="nav">
     </nav>
     <section>
        <div  class="swiper-container w-100" id="container">
-           <div class="swiper-wrapper  w-100" id="wrapper">
-            </div>
+         <div class="swiper-wrapper  w-100" id="wrapper"></div>
          <div class="swiper-pagination"></div>
          <div class="swiper-button-prev"></div>
          <div class="swiper-button-next"></div>
       </div>
-      <div>
-
+      <div class="d-flex justify-content-center align-items-center flex-column pt-5">
+           <h1>PRODUCTS</h1>
+           <div class="d-flex justify-content-center align-items-center flex-column">
+            <button class="btn btn-warning btn-lg" id="sort">SORT BY</button>
+            <ul class="list-group" id="list"></ul>
+           </div>
+           <div class="product-wrapper pt-5" id="products"></div>
       </div>
+      <div class="contact mb-5"></div>
     </section>
-
+    <div class="cart bg-warning justify-content-center align-items-center flex-column" id="cart">
+         <i class="fas fa-times close" id="close-cart"></i>
+         <h1 class="text-muted headline-cart">CART</h1>
+         <div class="cart-items" id="cart-items"></div>
+         <div id="cart-bottom">
+            <h4 class="text-muted">TOTAL: <span class="text-dark">$</span><span class="text-dark" id="value"></span></h4>
+            <button class="btn btn-lg btn-dark" id="clear-cart">CLEAR CART</button>
+         </div>
+    </div>
+    <div class="w-100 d-flex justify-content-center align-items-center flex-column bg-warning mt-5" id="contact">
+        <span class="text-muted display-3 m-5">Contact Us</span>
+        <div class="form m-3  d-flex justify-content-center align-items-center flex-column">
+           <input type="text" name="" id="" class="form-control m-3 p-3" placeholder="Email..." autocomplete="off">
+           <input type="text" name="" id="" class="form-control m-3 p-3" placeholder="Address..."  autocomplete="off">
+           <input type="text" name="" id="" class="form-control m-3 p-3" placeholder="Phone number..."  autocomplete="off">
+           <button class="btn btn-success btn-lg w-100 mt-3" >SEND</button>
+        </div>
+    </div>
+    <footer class="bg-dark w-100 pt-3 pb-3 d-flex justify-content-center align-items-center">
+         <span class="text-warning copyright">Copyright © Marko Perović 2021 All rights reserved.</span>
+    </footer>
+    <div class="overlay bg-dark w-100 h-100" id="overlay"></div>
 </body>
 <script src="scripts.js"></script>
 </html>

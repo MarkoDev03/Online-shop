@@ -1,7 +1,7 @@
 {
     "slider":[
         {
-            "image":"http://adwallpapers.xyz/uploads/posts/74241-interior-bedrom-4k-ultra-hd-wallpaper__cityscapes.jpg"
+            "image":"https://wallpaperaccess.com/full/774060.jpg"
         },
         {
             "image":"https://www.designersrooms.com/wp-content/uploads/2021/05/interior-design.jpg"
@@ -15,16 +15,30 @@
     ],
     "links":[
         {
-            "text":"Shops",
-            "href":""
-        },
-        {
             "text":"Products",
-            "href":""
+            "href":"#products"
         },
         {
             "text":"Contact",
-            "href":""
+            "href":"#contact"
+        }
+    ],
+    "sort":[
+        {
+            "text":"Price ascending",
+            "function":"$.fn.ascPrice()"
+        },
+        {
+            "text":"Price descending",
+            "function":"$.fn.descPrice()"
+        },
+        {
+            "text":"Title ascending",
+            "function":"$.fn.ascName()"
+        },
+        {
+            "text":"Title descending",
+            "function":"$.fn.descName()"
         }
     ]
 }
